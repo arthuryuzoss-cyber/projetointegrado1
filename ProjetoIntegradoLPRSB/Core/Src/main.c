@@ -414,13 +414,13 @@ int alunosvieram=0;
 
 					}
 					botao11=lerbotao11;
-					if (botao11==0){
+					if (botao11==0){ //alunos sairam pro banheiro ou agua
 						botao11=lerbotao11;
 						alunosfora++;
 						saidas++;
 					}
 					botao12=lerbotao12;
-						if (botao12==0  && alunosfora>0){
+						if (botao12==0  && alunosfora>0){ //alunos voltaram do banheiro
 							botao12=lerbotao12;
 						alunosfora--;
 					}
